@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{font-family: robotoreg;src: url( "../fonts/Roboto-Regular.ttf")}
+
+@font-face{font-family: robotoblack; src: url("../fonts/Roboto-Black.ttf");}
+
+@font-face{font-family: robotomed;src: url("../fonts/Roboto-Medium.ttf")}
+
+@font-face{font-family: gothambold;src: url("../fonts/Gotham-Bold.otf")}
+
+@font-face{font-family: gothammed;src: url("../fonts/GothamMedium.ttf")}
+
+@font-face{font-family: gothammed; src: url("../fonts/GothamPro-Medium.woff")}
+
+@font-face{font-family: gothambold; src: url("../fonts/GothamPro-Bold.woff")}
+
+body{margin: 0;padding: 0;font-size: 14px;font-family: Verdana, "sans-serif";color: #5a5a5a}
+
+p,ul,li,h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+
+a{text-decoration: none} a:hover{text-decoration: none}
+
+.container {max-width: 1170px;}
+
+/*.........header_start..........*/
+
+.hdr{background-color: #0272bc;padding: 1rem 0;}
+
+.login, .cart{font-family: robotoreg; font-size: 18px;margin-top: 6px}
+
+.form-inline{background-color: white}
+
+.frm .form-inline .form-control{display: inline-block;width: 80%;vertical-align: middle;background-color: transparent!important}
+
+.frm .form-control {display: block;width: 80%;padding: 10px 0px 10px 38px;font-size: 18px;line-height: 1.5;color: #6a6b6b;background-clip: padding-box;border: 1px solid transparent;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;border-radius: 0;font-family: robotoreg;word-spacing: 1px;letter-spacing: 1.2px;/*background: #fff url(../images/search.png)no-repeat right 38px center*/;margin: 0!important}
+
+.frm .form-control:focus{box-shadow: 0 0 0 0 transparent!important;border-color: transparent!important}
+
+.frm .btn{border-radius: 0;}
+
+.frm .btn-outline-success{width: 20%;border-color: transparent!important;background-color: transparent!important;padding: 10px 0px ;color: transparent}
+
+.frm .btn-outline-success:hover{background-color: transparent!important;border-color: transparent;color: none;}
+
+.frm .btn-outline-success:focus {box-shadow: none!important;background-color: transparent!important;
+border-color: transparent!important}
+
+.iconds{display: none}
+
+.login a, .cartimg a{text-decoration: none;}
+
+.register{color: #ffffff}
+
+.register:hover{color: #DCDADA}
+
+/*.........header_end..........*/
+
+/*.........nav_start..........*/
+
+.navbar{background-color: #edecec !important;box-shadow: 0px 2px 4px -2px #000;margin-top: 81px;}
+
+.navbar-nav{font-size: 20px;font-family: robotoreg;}
+
+.navbar-expand-md .navbar-nav .nav-link {padding-left: 10rem;}
+
+.navbar-dark .navbar-nav .nav-link{color: #2c2c2c}
+
+.navbar-dark .navbar-nav .active > .nav-link{padding-left: 0}
+
+.navbar-dark .navbar-nav .active > .nav-link {color: #0272bc;}
+
+.navbar-dark .navbar-nav .nav-link:hover {color: #0272bc;}
+
+.navbar-dark .navbar-toggler-icon{background-color: #0272bc}
+
+.dropdown-menu {position: absolute;top: 100%;left: 7.8rem;z-index: 1000;display: none;float: left;
+min-width: 10rem;padding: .5rem 0;margin: .125rem 0 0;font-size: 1rem;color: #212529;text-align: left;
+list-style: none;background-color: #fff;background-clip: padding-box;border: 1px solid rgba(0,0,0,.15);
+border-radius: .25rem;}
+
+/*.........nav_end..........*/
+
+.carousel {margin-bottom: 0rem;margin-top: 153px;}
+
+.carousel-item > img {position: absolute;top: 0;left: 0;min-width: 100%;height: 550px;}
+
+.carousel-item {height: 480px;background-color: #ffffff;}
+
+#intro{padding: 0!important}
+
+.carousel-caption {position: absolute;right: 3%;bottom: 0px;left: 70%;padding-top: 20px;padding-bottom: 20px;text-align: right;top: 0px;color: #0A0A0A;font-family: robotoblack}
+
+.carousel-caption h1{font-family: gothambold;font-size: 60px}
+
+.carousel-caption p {font-family: gothammed;font-size: 21px;letter-spacing: 29px;text-align: center;
+margin-left: 46px;}
+
+/*..............................sec2_category_start.........................*/
+
+#about, #about .about-extra{padding: 0!important}
+
+.category{margin-top: 80px;font-family: robotoreg; color: #363636!important;font-size: 34px;text-transform: uppercase;}
+
+.category span{color: #838383}
+
+.backpacks, .luggage{margin-top: 80px;overflow: hidden;}
+
+.backpacks img , .luggage img{transition: 1000ms}
+
+.backpacks img:hover{transform: scale(1.5);transition: 1000ms}
+
+.luggage img:hover{transform: scale(1.5);transition: 1000ms}
+
+.backtxt,.lugstxt{position: absolute;top: 45%;left: 0;right: 0; font-size: 45px;color: white;font-family: robotoblack;letter-spacing: 6px;text-align: center}
+
+.backtxt a,.lugstxt a{color: white;transition: 1000ms}
+
+.backtxt a:hover,.lugstxt a:hover{color: #0085dd;transition: 1000ms}
+
+.bagtxt{color: #545454;font-size: 18px;font-family: robotoreg;}
+
+.bagtxthov{position: absolute;left: 0;right: 0;top:0;text-align: center;z-index: 2;opacity: 0;width: 100%;height: 100%;color: #2b2b2b;transition: 1000ms;}
+
+.bagbdr{border: 1px solid #828283;padding: 3rem 0;box-sizing: border-box;margin-top: 80px}
+
+.bagbdr:hover{border: 1px solid transparent;transition: 500ms;}
+
+.bagtxthov:hover{opacity: 1;background: #ffffff95;transition: 1000ms;}
+
+.bagtxt3{text-decoration: line-through;color: #e21219;font-family: robotomed;font-size: 12px}
+
+.bagtxt1{margin-top: 50%;font-family: robotomed;}
+
+.luggagetxt1{margin-top: 60%;font-family: robotomed;}
+
+.bagtxt2{font-family: robotomed;font-size: 17px}
+
+#services .box{border-radius: 0!important;margin: 80px 0 0 0!important;padding: 3rem 0!important}
+
+#services{padding: 0}
+
+/*........sec2_category_Ends...........*/
+
+/*......around the world/start........*/
+
+.owl-carousel.owl-drag .owl-item{margin-top: 80px}
+
+/*......around the world/end.........*/
+
+
+/*.................Why choose us/start..................*/
+.card {position: relative;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border: 1px solid transparent;border-radius: .25rem;}
+
+.card-body{padding-top:0;padding-bottom: 0;margin-top: 80px;}
+
+.backpacks img:hover{transform: 2}
+
+#why-us .card i{padding-top: 0}
+
+#why-us .card{margin: 0;padding: 0}
+
+#why-us .card h5{font-size: 25px;color: #4D4D4D;font-family: robotoreg;letter-spacing: 2px;padding: 1rem 0}
+
+#why-us .card p{font-size: 15px;color: #6b6b6b;font-family: robotoreg;}
+
+#why-us .card:hover {background: transparent;border-color: transparent;}
+
+#why-us{background: transparent;padding: 0}
+
+#why-us .card{border-color: transparent;background: transparent}
+
+#why-us .counters span{color: #0085dd;font-family: robotoblack}
+
+#why-us .counters p{color: #0085dd;font-family: robotoreg;font-size: 17px}
+
+#why-us .counters {margin-bottom: 80px}
+/*.................Why choose us/end..................*/
+
+
+/*..........................footer..........................*/
+
+.ftr{background: #222222;padding: 80px 0}
+
+.customers h1, .products h1, .support h1, .connected h1{font-size: 20px;font-family: Arial, "sans-serif";color: white}
+
+.customers p, .products p, .support p{margin-top: .8rem}
+
+.customers a, .products a, .support a{color: #686767;}
+
+.support a:hover{color: white;}
+
+.customers a:hover{color: white;} 
+
+.products a:hover{color: white;}
+
+.line{border: 1px solid #828283}
+
+.social{margin-top: 15px;}
+
+.social li{margin: 0 0 0 10px}
+
+.Subscribe .btn{margin-top: 21px;padding: .5rem .75rem;}
+
+.emadd{padding-right: 0!important;}
+
+.Subscribe{padding-left: 0!important;margin-top: -12px;}
+
+.emadd .form-control{border-radius: 0;padding: .5rem .75rem;margin-top: -12px;}
+
+.Subscribe .btn{border-radius: 0;}
+
+.visa ul li{display: inline-block}
+
+.signup{color: #5a5a5a;margin-top: .8rem;}
+
+.signup a{color: #5a5a5a}
+
+.signup a:hover{color: white}
+
+/*..............................footer................................*/
+
+.owl-item cloned{margin-right: 0!important}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{color: #007aca;}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span{background: #007aca}
+
+@media only screen and (max-width:1190px){
+.frm .form-control {padding: 10px 0px 10px 19px;font-size: 15px;}.navbar{margin-top: 76px;}.carousel{margin-top: 77px;}.carousel {margin-top: 150px;}.frm .btn-outline-success{padding: 8.5px 0px;}}
+	
+@media only screen and (max-width:1155px){.navbar-expand-md .navbar-nav .nav-link{padding-left: 7rem;}
+.dropdown-menu {left: 4.8rem;}}
+
+@media only screen and (max-width:991px){.bagtxt1{margin-top: 26%;}.luggagetxt1{margin-top: 32%;}.bagbdr{border: 1px solid transparent}.carousel-caption{left:-42%}}
+	
+@media only screen and (max-width:960px){.bagtxt1{margin-top: 26%;}.luggagetxt1{margin-top: 32%;}.navbar-expand-md .navbar-nav .nav-link{padding-left: 4rem;}.dropdown-menu {left: 1.8rem;}}
+	
+@media only screen and (max-width:935px){.bagtxt1{margin-top: 30%;}.luggagetxt1{margin-top: 36%;}}
+	
+@media only screen and (max-width:860px){.luggagetxt1{margin-top: 40%;}}
+	
+@media only screen and (max-width:830px){.bagtxt1{margin-top: 35%;}.luggagetxt1{margin-top: 42%;}}
+
+@media only screen and (max-width:767px){.register,.cartxt{display: none}.bagtxt1{margin-top: 40%;}.luggagetxt1{margin-top: 47%;}.social{display: table;margin: auto}.visa ul {display: table;margin: auto}.navbar-dark .navbar-nav .active > .nav-link{padding-left: 4rem}.carousel {margin-top: 144px;}.socialfticn{margin: auto;margin-top: 1rem!important}.navbar {margin-top: 76px;}.hdr{padding-bottom:0!important}}
+	
+@media only screen and (max-width:680px){.luggagetxt1{margin-top: 52%;}}
+	
+@media only screen and (max-width:625px){.bagtxt1{margin-top: 48%;}.luggagetxt1{margin-top: 58%;}}
+	
+@media only screen and (max-width:575px){.bagtxt1{margin-top: 25%;}.luggagetxt1{margin-top: 30%;}.navbar {margin-top: 106px;}.hdr{padding:.5rem 0!important}.carousel{margin-top: 77px;}.login, .cart{display: none}.frm{margin-top: 6px}.login1{display: block;}.carousel {margin-top: 180px;}.carousel-caption {left: -14%;}.iconds{display: block}.line{margin-top: 1rem}}
+	
+@media only screen and (max-width:510px){.bagtxt1{margin-top: 28%;}.luggagetxt1{margin-top: 35%;}}
+
+@media only screen and (max-width:475px){.bagtxt1{margin-top: 32%;}.luggagetxt1{margin-top: 38%;}
+.visa ul li{display: block;text-align: center;margin-top: 1rem} .visa ul{margin: auto}.carousel-caption {
+left: 0%;}}
+	
+@media only screen and (max-width:425px){.bagtxt1{margin-top: 35%;}.luggagetxt1{margin-top: 43%;}}
+	
+@media only screen and (max-width:380px){.bagtxt1{margin-top: 39%;}.luggagetxt1{margin-top: 48%;}
+.backtxt, .lugstxt {font-size: 40px;}}
+	
+@media only screen and (max-width:335px){.bagtxt1{margin-top: 45%;}.luggagetxt1{margin-top: 53%;}
+.backtxt, .lugstxt {font-size: 35px;}.emadd .form-control, .Subscribe .btn{font-size: 15px}}
+
+
+/*
+@media only screen and (max-width:660px){
+	.frm .form-control {padding: 10px 38px 10px 20px;font-size: 15px;background: #fff url(../images/search.png)no-repeat right 20px center}	
+}
+*/
+
